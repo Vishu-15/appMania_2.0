@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hypothesis</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" href="/images/farmer-logo.avif" type="image/x-icon">
+  <script defer src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles1.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- <link rel="stylesheet" href="/css/styles2.css"> -->
+</head>
+
+<body>
+  <%-include("../includes/navbar.ejs")%>
+  <section id="timeline">
+    <ul>
+
+      <li>
+        <i class="fa-brands fa-css3"><img id="tick" src="/images/tick mark.jpeg" alt="tick mark"></i>
+        <div class="box">
+          <h3 class="title"><span class="year">Date</span>Soil Pick-Up</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
+            possimus in ipsum iure eaque atque esse commodi molestiae, et
+            odio!
+          </p>
+
+        </div>
+      </li>
+      <li>
+        <i class="fa-brands fa-js"><img id="tick" src="/images/tick mark.jpeg" alt="tick mark"></i>
+        <div class="box">
+          <h3 class="title">
+            <span class="year">Date</span>Send for Analysis
+          </h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
+            possimus in ipsum iure eaque atque esse commodi molestiae, et
+            odio!
+          </p>
+
+        </div>
+      </li>
+
+      <li>
+        <i class="fa-solid fa-code"><img id="tick" src="/images/tick mark.jpeg" alt="tick mark"></i>
+        <div class="box">
+          <h3 class="title"><span class="year">Date</span>Report Construction</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
+            possimus in ipsum iure eaque atque esse commodi molestiae, et
+            odio!
+          </p>
+
+        </div>
+      </li>
+    </ul>
+  </section>
+  <div class="report">
+    <h2 class="soil_report">Soil Report :</h2>
+    <table class="table table-striped table-bordered table-sm">
+      <thead>
+        <tr>
+          <th>Soil Property</th>
+          <th>Depth (cm)</th>
+          <th>pH</th>
+          <th>Electrical Conductivity (dS/m)</th>
+          <th>Organic Matter (%)</th>
+          <th>Nitrogen (ppm)</th>
+          <th>Phosphorus (ppm)</th>
+          <th>Potassium (ppm)</th>
+          <th>Texture</th>
+          <th>Drainage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Topsoil</td>
+          <td>0-20</td>
+          <td>6.2</td>
+          <td>0.8</td>
+          <td>2.1</td>
+          <td>25</td>
+          <td>12</td>
+          <td>120</td>
+          <td>Sandy loam</td>
+          <td>Good</td>
+        </tr>
+        <tr>
+          <td>Subsoil</td>
+          <td>20-40</td>
+          <td>6.5</td>
+          <td>0.5</td>
+          <td>1.8</td>
+          <td>18</td>
+          <td>9</td>
+          <td>110</td>
+          <td>Loamy sand</td>
+          <td>Moderate</td>
+        </tr>
+        <tr>
+          <td>Substratum</td>
+          <td>40-60</td>
+          <td>6.8</td>
+          <td>0.3</td>
+          <td>1.5</td>
+          <td>15</td>
+          <td>7</td>
+          <td>100</td>
+          <td>Sandy clay</td>
+          <td>Poor</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="soil_report">Interpretation :</p>
+    <ul>
+      <li>pH (H2O): The pH levels across all depths fall within the optimal range (6.0-7.0) for most crops, ensuring
+        nutrient availability and microbial activity.</li>
+      <li>Electrical Conductivity (EC): The EC values indicate low salinity levels, which are favorablElectrical
+        Conductivity (EC): The EC values indicate low salinity levels, which are favorable for plant growth. However,
+        monitoring is recommended to prevent salinity buildup over time.</li>
+      <li>Organic Matter (%): Organic matter content is moderate, contributing to soil fertility, water retention, and
+        microbial activity. Incorporating organic amendments can further enhance soil health.</li>
+      <li>Total Nitrogen (N): Adequate nitrogen levels support plant growth and protein synthesis. Nitrogen management
+        strategies should consider crop requirements and potential leaching losses.</li>
+      <li>Phosphorus (P): Phosphorus levels are sufficient for initial plant growth but may require supplementation for
+        optimal yields, especially in phosphorus-fixing soils.</li>
+      <li>Potassium (K): Potassium levels are adequate for most crops, supporting functions such as enzyme activation,
+        water regulation, and disease resistance.</li>
+      <li>Texture: Soil texture influences water infiltration, root penetration, and nutrient availability. Adjusting
+        management practices based on texture can optimize crop performance.</li>
+      <li>Drainage: Soil drainage affects root development, oxygen availability, and nutrient uptake. Improving drainage
+        in poorly drained areas can mitigate waterlogging and enhance crop resilience.</li>
+    </ul>
+    <!-- <p class="soil_report">Based on the analysis, consider implement the following recommendations:</p> -->
+    <!-- <ul>
+          <li>Implement a balanced fertilization program tailored to crop requirements and soil nutrient levels.</li>
+          <li>Incorporate cover crops and organic amendments to improve soil structure, nutrient cycling, and organic matter content.</li>
+          <li>Monitor soil moisture levels and irrigation practices to optimize water use efficiency and prevent water stress.</li>
+          <li>Conduct periodic soil testing to track changes in soil fertility and guide management decisions.</li>
+        </ul> -->
+    <div class="container-fluid py-5">
+      <p class="col-md-8 fs-4">Feel free to have a conversation with our agro AI assistant to get insights on your
+        crops, fertilizers, and water requirements for your farming needs.</p>
+      <button id="chat_bot" class="btn btn-primary btn-lg" type="button">Get Help</button>
+    </div>
+  </div>
+  <%-include("../includes/footer.ejs")%>
+
+  <script>
+    "use strict";
+
+    const boxes = document.querySelectorAll(".box");
+
+    window.addEventListener("scroll", DisplayContent);
+    DisplayContent();
+
+    function DisplayContent() {
+      const TriggerBottom = (window.innerHeight / 5) * 4;
+
+      boxes.forEach((box) => {
+        const topBox = box.getBoundingClientRect().top;
+
+        if (topBox < TriggerBottom) {
+          box.classList.add("show");
+        } else {
+          box.classList.remove("show");
+        }
+      });
+    }
+
+    document.getElementById('chat_bot').addEventListener('click', function () {
+      window.open('/help', '_blank');
+    });
+
+  </script>
+</body>
+
+</html>

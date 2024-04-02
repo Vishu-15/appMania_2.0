@@ -1,0 +1,161 @@
+.logo{
+    height: 55px;
+    width: 55px;
+    padding-bottom: 5px;
+}
+.Header{
+    padding-top: 10px;
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+}
+.Heroes,#product{
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+}
+#hero_img{
+    border-radius: 2%;
+}
+.soil_pick{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#grad{
+    background-color: #eaf6f6;
+}
+#schedule_img{
+    height: 200px;
+    width: 200px;
+}
+.product_img{
+    display: flex;
+    height: 20rem;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.banner-image{
+    height: 360px;
+    width: 100%;
+    background-image: url('/images/products_image.jpg');
+    background-size: cover;
+}
+#product1{
+    height: 500px;
+}
+.product-slider{
+    display: flex;
+    overflow: hidden;
+    position: relative;;
+    height: 405px;
+}
+.product-slider .previous{
+    position: absolute;
+    z-index: 100;
+    display: inline-block;
+    left: 0;
+    bottom: 190px;
+    width: 50px;
+    height: 50px;
+    border-radius: 0 4px 4px 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid #999999;
+    border-width: 1px 1px 1px 0;
+    cursor: pointer;
+
+}
+.product-slider .next{
+    position: absolute;
+    z-index: 100;
+    display: inline-block;
+    right: 0;
+    bottom: 190px;
+    width: 50px;
+    height: 50px;
+    border-radius: 0 4px 4px 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid #999999;
+    border-width: 1px 0 1px 1px;
+    cursor: pointer;
+
+}
+.product-slider ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-slider ul a{
+    text-decoration:none;
+}
+
+.product-slider ul a:hover{
+    opacity: 80%;
+}
+
+
+.product-slider .card{
+    width: 320px;
+}
+#previous,#next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 50px;
+    font-size: 35px;
+}
+body{
+    background-color: #f2efef;
+}
+
+/* date picker */
+.datepicker-container {
+    position: relative;
+  }
+  
+  #datepicker {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #datepicker.visible {
+    display: block;
+  }
+  
+  #datepicker table {
+    width: 100%;
+  }
+  
+  #datepicker td {
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  #datepicker td:hover {
+    background-color: #f0f0f0;
+  }
+  #payment{
+    display: none;
+    visibility: hidden;
+  }
+  .profile_img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+  }
+  /**/
+  
